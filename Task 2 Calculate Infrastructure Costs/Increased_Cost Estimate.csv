@@ -1,0 +1,14 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,673.43,8081.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (100 GB per hour), Average number of new TCP connections (10000 per second), Average TCP connection duration (100 seconds), Processed bytes per NLB for UDP (50 GB per hour), Average number of new UDP Flows (10000 per second), Average UDP Flow duration (100 seconds)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,308.43,3701.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),S3 Standard,0,236.1,2833.2,USD,S3 Standard storage (10000 GB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,921.51,11058.12,USD,"Data Transfer, Data transfer cost (921.51)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,4128.8,49545.6,USD,"Operating system (Linux), Quantity (16), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (r5a.2xlarge)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,965.7,11588.4,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,10667.008,128004.1,USD,"Quantity (4), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (5000 GB), Instance type (db.m5.4xlarge), Additional backup storage (10000 GB)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,931.75,11181,USD,"Data Transfer, Data transfer cost (931.75)"
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"Add redundancy by double NAT, EC2 and RDS instances",,,,,,,
+Improve performance by using higher spec EC2 and RDS instances,,,,,,,
